@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android_custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.shanjigang.myprogressbar.view.RoundProgressBar
+        android:id="@+id/roundProgressBar2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_alignLeft="@+id/roundProgressBar1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="78dp"
+
+
+        android:background="@drawable/eo"
+        android_custom:drawable="@drawable/eopard"
+        android_custom:roundColor="#D1D1D1"
+        android_custom:roundProgressColor="@android:color/holo_blue_bright"
+        android_custom:roundWidth="10dip"
+        android_custom:textColor="#9A32CD"
+        android_custom:textIsDisplayable="true"
+        android_custom:textSize="18sp" />
+
+    <Button
+        android:id="@+id/bt_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="restart" />
+
+    <TextView
+        android:id="@+id/ndk_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
